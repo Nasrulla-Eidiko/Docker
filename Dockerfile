@@ -85,6 +85,7 @@ USER aceuser
 
 WORKDIR /home/aceuser
 RUN mkdir /home/aceuser/initial-config && chown aceuser:aceuser /home/aceuser/initial-config
+RUN mkdir /home/aceuser/bars && chown aceuser:aceuser /home/aceuser/bars
 
 ENV LOG_FORMAT=basic
 
